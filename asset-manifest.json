@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/minjeesong/static/css/main.23dff1f8.css",
+    "main.js": "/minjeesong/static/js/main.59539729.js",
+    "static/css/64.bba8fa55.chunk.css": "/minjeesong/static/css/64.bba8fa55.chunk.css",
+    "static/js/64.a22a320e.chunk.js": "/minjeesong/static/js/64.a22a320e.chunk.js",
+    "static/css/769.b3cbb36b.chunk.css": "/minjeesong/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.ea536713.chunk.js": "/minjeesong/static/js/769.ea536713.chunk.js",
+    "static/media/kkini.png": "/minjeesong/static/media/kkini.014cd3ac6bfba33fdc8b.png",
+    "static/media/Montserrat-Regular.ttf": "/minjeesong/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Agustina.woff": "/minjeesong/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/manOnTable.svg": "/minjeesong/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/contactMailDark.svg": "/minjeesong/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/minjeesong/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/skill.svg": "/minjeesong/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "index.html": "/minjeesong/index.html",
+    "static/media/talksCardBack.svg": "/minjeesong/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.23dff1f8.css.map": "/minjeesong/static/css/main.23dff1f8.css.map",
+    "main.59539729.js.map": "/minjeesong/static/js/main.59539729.js.map",
+    "64.bba8fa55.chunk.css.map": "/minjeesong/static/css/64.bba8fa55.chunk.css.map",
+    "64.a22a320e.chunk.js.map": "/minjeesong/static/js/64.a22a320e.chunk.js.map",
+    "769.b3cbb36b.chunk.css.map": "/minjeesong/static/css/769.b3cbb36b.chunk.css.map",
+    "769.ea536713.chunk.js.map": "/minjeesong/static/js/769.ea536713.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23dff1f8.css",
+    "static/js/main.59539729.js"
+  ]
+}
