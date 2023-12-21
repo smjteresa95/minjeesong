@@ -301,7 +301,8 @@ const bigProjects = {
       image: require("./assets/images/kkini.png"),
       projectName: "Kkini(끼니)",
       projectDesc:
-        "간편식 시장의 폭발적인 성장에 따라 브랜드와 제품의 수도 우후죽순으로 늘어나고 있습니다. 그 중 나에게 맞는 최적의 상품을 찾기는 어려운 일입니다. 끼니는 이러한 어려움을 해결하고자 시작된 프로젝트 입니다. 이용자의 시간과 노력을 절약하고, 정확하고 신뢰성 있는 정보를 제공하여 구매결정과정을 돕습니다.",
+        "소비자의 선호와 영양 성분 요구에 따른 맞춤형 간편식 선택 서비스",
+        techStack: "Spring Boot 3.1.3, Java 17, Python 3.11.7, React, JavaScript, MySQL, NCloud, Spring Security, Docker, Jenkins, Jira, Slack, Agile",
       footerLink: [
         {
           name: "Visit Website",
@@ -319,7 +320,8 @@ const bigProjects = {
       projectName: "상품 데이터 관리 및 크롤링 시스템 ",
       projectDesc:
         "보완 한 Kkini project의 일부로, 대규모 식품 데이터를 효율적으로 관리하고 실시간으로 웹 크롤링을 통해 상품 정보를 수집하는 시스템입니다.",
-      footerLink: [
+      techStack: "python 3.12.0, selenium 4.15.2, Ncloud S3",
+        footerLink: [
         {
           name: "Source Code",
           url: "https://github.com/smjteresa95/kkini-product-data/tree/develop"
@@ -341,8 +343,12 @@ const bigProjects = {
     {
       // image: require("./assets/images/nextuLogo.webp"),
       projectName: "OCR을 이용한 영양성분 데이터 추출 스크립트",
-      projectDesc:
-        "초기 Kkini project의 일부로, 처음으로 작성해 본 Python script 입니다. Naver Clova의 OCR (Optical Character Recognition) API를 사용하여 영양성분표 이미지에서 필요한 데이터를 추출하고 가공하는 Python 스크립트 기반의 프로젝트입니다. 데이터베이스에 저장된 영양성분표 이미지를 분석하여 중요한 영양 정보를 자동으로 식별하고 추출합니다. 추출된 데이터는 필요에 맞게 가공되어 다시 데이터베이스에 저장됩니다.",
+      projectDesc: [
+        "초기 Kkini project의 일부로, 처음으로 작성해 본 Python script 입니다. ",<br/>,<br/>," Naver Clova의 OCR (Optical Character Recognition) API를 사용하여 영양성분표 이미지에서 필요한 데이터를 추출하고 가공하는 Python 스크립트 기반의 프로젝트입니다. ",<br/>,<br/>,
+        "데이터베이스에 저장된 영양성분표 이미지를 분석하여 중요한 영양 정보를 자동으로 식별하고 추출합니다. ",<br/>,
+        "추출된 데이터는 필요에 맞게 가공되어 다시 데이터베이스에 저장됩니다.",
+      ],
+        techStack: "Naver Clova OCR, Python 3.11.6, MySQL",
       footerLink: [
         {
           name: "Source Code",
@@ -354,11 +360,12 @@ const bigProjects = {
       // image: require("./assets/images/nextuLogo.webp"),
       projectName: "크롤링",
       projectDesc:
-        "초기 Kkini project의 일부로 데이터를 추출하고 가공하는 Python 스크립트 기반의 프로젝트입니다. 데이터베이스에 저장된 영양성분표 이미지를 분석하여 중요한 영양 정보를 자동으로 식별하고 추출합니다. 추출된 데이터는 필요에 맞게 가공되어 다시 데이터베이스에 저장됩니다.",
-      footerLink: [
+        "초기 KKINIproject의 일부로 다수의 상품 판매 사이트에서 상품 정보를 스크래핑하여 DB에 저장합니다",
+      techStack: "Maven 4.0.0, Spring Boot 3.1.2, Java 17, MySQL",
+        footerLink: [
         {
           name: "Source Code",
-          url: "https://github.com/smjteresa95/Naver-Cloud-OCR-API/tree/main"
+          url: "https://github.com/smjteresa95/Crawling-Selenium"
         }
       ]
     }
@@ -455,7 +462,7 @@ const blogSection = {
       url: "https://medium.com/@minjeesong95/project-kkini-jira%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%ED%98%91%EC%97%85-1feab2fbc57e",
       title: "Project Kkini | Jira를 활용한 협업",
       description:
-        "프로젝트를 진행하면서 이런식으로 협업을 했습니다."
+        "프로젝트를 진행하면서 이런식으로 협업을 했어요."
     },
     {
       url: "https://medium.com/@minjeesong95/list/java-2c5c061ff7f2",

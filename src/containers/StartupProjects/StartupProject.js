@@ -52,12 +52,15 @@ export default function StartupProject() {
                       ></img>
                     </div>
                   ) : null}
+
                   <div className="project-detail">
                     <h5
                       className={isDark ? "dark-mode card-title" : "card-title"}
                     >
                       {project.projectName}
                     </h5>
+                    
+
                     <p
                       className={
                         isDark ? "dark-mode card-subtitle" : "card-subtitle"
@@ -65,6 +68,16 @@ export default function StartupProject() {
                     >
                       {project.projectDesc}
                     </p>
+                  
+
+                    <p
+                      className={
+                        isDark ? "dark-mode card-subtitle" : "card-subtitle"
+                      }
+                    >
+                      {project.techStack}
+                    </p>
+
                     {project.footerLink ? (
                       <div className="project-card-footer">
                         {project.footerLink.map((link, i) => {
