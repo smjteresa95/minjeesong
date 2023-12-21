@@ -1,0 +1,52 @@
+@import "../../_globalColor";
+
+.aboutMe-subtitle {
+  text-transform: uppercase;
+  margin: 0px;
+  margin-bottom: 50px;
+}
+.subTitle {
+  color: $subTitle;
+}
+
+.aboutMe-heading {
+  font-size: 56px;
+  font-weight: 400;
+}
+
+.aboutMe-container {
+  display: flex;
+  width: 65%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 2rem;
+}
+
+.aboutMe-container > * {
+  flex: 1;
+}
+
+.aboutMe-content-div {
+  margin-left: 0px;
+  margin: 20px;
+}
+.aboutMe-content {
+  font-size: 20px;
+  margin-bottom: 0.6rem;
+  line-height: 1.7;
+}
+
+/* Media Query */
+
+@media (max-width: 1380px) {
+  .aboutMe-heading {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutMe-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+}

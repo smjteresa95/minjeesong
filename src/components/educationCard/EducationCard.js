@@ -5,17 +5,29 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function EducationCard({school}) {
   const imgRef = createRef();
+  const {isDark} = useContext(StyleContext);
 
-  const GetDescBullets = ({descBullets}) => {
-    return descBullets
-      ? descBullets.map((item, i) => (
-          <li key={i} className="subTitle">
-            {item}
-          </li>
+  const GetDescBulletsWithTitle = ({sections}) => {
+    const renderDescBullets = descBullets => {
+      return descBullets.map((item, i) => (
+        <li key={i} className="subTitle">
+          {item.content}
+          {item.subBullets && item.subBullets.length > 0 && (
+            <ul>{renderDescBullets(item.subBullets)}</ul>
+          )}
+        </li>
+      ));
+    };
+
+    return sections
+      ? sections.map((section, index) => (
+          <div key={index}>
+            <h4>{section.title}</h4>
+            <ul>{renderDescBullets(section.descBullets)}</ul>
+          </div>
         ))
       : null;
   };
-  const {isDark} = useContext(StyleContext);
 
   if (!school.logo)
     console.error(`Image of ${school.name} is missing in education section`);
@@ -57,7 +69,7 @@ export default function EducationCard({school}) {
               <p className="education-text-desc">{school.desc}</p>
               <div className="education-text-bullets">
                 <ul>
-                  <GetDescBullets descBullets={school.descBullets} />
+                  <GetDescBulletsWithTitle sections={school.sections} />
                 </ul>
               </div>
             </div>

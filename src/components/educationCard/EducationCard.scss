@@ -5,6 +5,14 @@
   flex-direction: row;
 }
 
+h4 {
+  margin-bottom: 10px;
+}
+
+.subTitle {
+  margin-top: 5px;
+}
+
 .education-card:hover + .education-card-border {
   border-color: $educationCardBorder;
   width: 100%;
@@ -37,7 +45,7 @@
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  height: 27px;
+  height: 30px;
 }
 
 .education-roundedimg {
@@ -97,7 +105,7 @@
   }
   .education-text-school {
     font-size: 20px;
-    height: 23px;
+    height: 25px;
   }
   .education-text-duration {
     font-size: 16px;
