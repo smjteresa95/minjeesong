@@ -42,7 +42,6 @@ export default function Achievement() {
             >
               {achievementSection.description}
             </p>
-
           </div>
           <div className="achievement-cards-div">
             {achievementSection.achievementsCards.map((card, i) => {

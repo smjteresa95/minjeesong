@@ -80,43 +80,42 @@ const skillsSection = {
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-softwareSkills: [
-  {
-    skillName: "Java",
-    fontAwesomeClassname: "fab fa-java"
-  },
-  {
-    skillName: "Spring Boot",
-    fontAwesomeClassname: "fas fa-leaf"
-  },
-  {
-    skillName: "python",
-    fontAwesomeClassname: "fab fa-python"
-  },
-  {
-    skillName: "sql-database",
-    fontAwesomeClassname: "fas fa-database"
-  },
-  {
-    skillName: "reactjs",
-    fontAwesomeClassname: "fab fa-react"
-  },
-  {
-    skillName: "Github",
-    fontAwesomeClassname: "fab fa-github"
-  },
-  {
-    skillName: "jira",
-    fontAwesomeClassname: "fab fa-jira"
-  },
-  {
-    skillName: "aws",
-    fontAwesomeClassname: "fab fa-aws"
-  }
-],
-display: true // Set false to hide this section, defaults to true
+  softwareSkills: [
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "Spring Boot",
+      fontAwesomeClassname: "fas fa-leaf"
+    },
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "Github",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "jira",
+      fontAwesomeClassname: "fab fa-jira"
+    },
+    {
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
 };
-
 
 // Your top 3 proficient stacks/tech experience
 const techStack = {
@@ -150,7 +149,6 @@ const techStack = {
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
-
 
 // Education Section
 const educationInfo = {
@@ -239,7 +237,6 @@ const educationInfo = {
   ]
 };
 
-
 // Work experience section
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
@@ -302,7 +299,8 @@ const bigProjects = {
       projectName: "Kkini(끼니)",
       projectDesc:
         "소비자의 선호와 영양 성분 요구에 따른 맞춤형 간편식 선택 서비스",
-        techStack: "Spring Boot 3.1.3, Java 17, Python 3.11.7, React, JavaScript, MySQL, NCloud, Spring Security, Docker, Jenkins, Jira, Slack, Agile",
+      techStack:
+        "Spring Boot 3.1.3, Java 17, Python 3.11.7, React, JavaScript, MySQL, NCloud, Spring Security, Docker, Jenkins, Jira, Slack, Agile",
       footerLink: [
         {
           name: "Visit Website",
@@ -321,7 +319,7 @@ const bigProjects = {
       projectDesc:
         "보완 한 Kkini project의 일부로, 대규모 식품 데이터를 효율적으로 관리하고 실시간으로 웹 크롤링을 통해 상품 정보를 수집하는 시스템입니다.",
       techStack: "python 3.12.0, selenium 4.15.2, Ncloud S3",
-        footerLink: [
+      footerLink: [
         {
           name: "Source Code",
           url: "https://github.com/smjteresa95/kkini-product-data/tree/develop"
@@ -330,7 +328,7 @@ const bigProjects = {
     },
     {
       // image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Dining Review API",
+      projectName: "Dining Review API", 
       projectDesc:
         "Codecademy에서 Java, Spring boot 과정 수강 후 음식점 리뷰 API를 만들었습니다.",
       footerLink: [
@@ -344,11 +342,17 @@ const bigProjects = {
       // image: require("./assets/images/nextuLogo.webp"),
       projectName: "OCR을 이용한 영양성분 데이터 추출 스크립트",
       projectDesc: [
-        "초기 Kkini project의 일부로, 처음으로 작성해 본 Python script 입니다. ",<br/>,<br/>," Naver Clova의 OCR (Optical Character Recognition) API를 사용하여 영양성분표 이미지에서 필요한 데이터를 추출하고 가공하는 Python 스크립트 기반의 프로젝트입니다. ",<br/>,<br/>,
-        "데이터베이스에 저장된 영양성분표 이미지를 분석하여 중요한 영양 정보를 자동으로 식별하고 추출합니다. ",<br/>,
-        "추출된 데이터는 필요에 맞게 가공되어 다시 데이터베이스에 저장됩니다.",
+        "초기 Kkini project의 일부로, 처음으로 작성해 본 Python script 입니다. ",
+        <br />,
+        <br />,
+        " Naver Clova의 OCR (Optical Character Recognition) API를 사용하여 영양성분표 이미지에서 필요한 데이터를 추출하고 가공하는 Python 스크립트 기반의 프로젝트입니다. ",
+        <br />,
+        <br />,
+        "데이터베이스에 저장된 영양성분표 이미지를 분석하여 중요한 영양 정보를 자동으로 식별하고 추출합니다. ",
+        <br />,
+        "추출된 데이터는 필요에 맞게 가공되어 다시 데이터베이스에 저장됩니다."
       ],
-        techStack: "Naver Clova OCR, Python 3.11.6, MySQL",
+      techStack: "Naver Clova OCR, Python 3.11.6, MySQL",
       footerLink: [
         {
           name: "Source Code",
@@ -362,7 +366,7 @@ const bigProjects = {
       projectDesc:
         "초기 KKINIproject의 일부로 다수의 상품 판매 사이트에서 상품 정보를 스크래핑하여 DB에 저장합니다",
       techStack: "Maven 4.0.0, Spring Boot 3.1.2, Java 17, MySQL",
-        footerLink: [
+      footerLink: [
         {
           name: "Source Code",
           url: "https://github.com/smjteresa95/Crawling-Selenium"
@@ -378,69 +382,68 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "국비지원교육 외 개발 공부를 하면서 수강한 과정입니다.",
+  subtitle: "국비지원교육 외 개발 공부를 하면서 수강한 과정입니다.",
 
-    achievementsCards: [
-      {
-        title: "Learn Java",
-        subtitle: "Codecademy",
-        description:
-          "부트캠프 수강 중 기본적인 자바학습을 추가로 병행하였습니다.",
-        footerLink: [
-          {
-            name: "Certification",
-            url: "https://drive.google.com/file/d/1oPQXUK2VSwf1lnBOq1aN6Bv0hOSXnk19/view?usp=sharing"
-          }
-        ]
-      },
-      {
-        title: "Create REST APIs with Spring and Java",
-        subtitle: "Codecademy",
-        description:
-          "부트캠프 수강 전 예습차원에서 수강한 과정입니다. HTTP, REST 그리고 CRUD에 대한 개념을 익히고 Spring framework로 웹 API구축하는 법을 학습했습니다.",
-        footerLink: [
-          {
-            name: "Certification",
-            url: "https://drive.google.com/file/d/1VdjpHWLeZ_fSASDUJk3pvdTzuuPM1wr7/view?usp=sharing"
-          },
-          {
-            name: "Project",
-            url: "https://github.com/smjteresa95/Dining-Review"
-          }
-        ]
-      },
-      {
-        title: "How to Transform Tables with SQL",
-        subtitle: "Codecademy",
-        description: "데이터 조작을 위한 SQL을 추가로 학습하였습니다.",
-        footerLink: [{name: "Certification", url: ""}]
-      },
-      {
-        title: "AWS Cloud Technical Essentials",
-        subtitle: "Coursera",
-        description:
-          "Web application 배포실습을 통해 AWS 서비스의 전반적인 이해를 익히고있습니다.",
-        footerLink: [
-          {
-            name: "In Progress",
-            url: "https://www.coursera.org/learn/aws-cloud-technical-essentials/"
-          }
-        ]
-      },
-      {
-        title: "Build Python Web Apps with Flask",
-        subtitle: "Codecademy",
-        description:
-          "가격비교 API를 만들기 위해서 Python과 Flask를 학습하고 있습니다.",
-        footerLink: [
-          {
-            name: "In Progress",
-            url: "https://www.codecademy.com/enrolled/paths/build-python-web-apps-flask"
-          }
-        ]
-      }
-    ],
+  achievementsCards: [
+    {
+      title: "Learn Java",
+      subtitle: "Codecademy",
+      description:
+        "부트캠프 수강 중 기본적인 자바학습을 추가로 병행하였습니다.",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1oPQXUK2VSwf1lnBOq1aN6Bv0hOSXnk19/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "Create REST APIs with Spring and Java",
+      subtitle: "Codecademy",
+      description:
+        "부트캠프 수강 전 예습차원에서 수강한 과정입니다. HTTP, REST 그리고 CRUD에 대한 개념을 익히고 Spring framework로 웹 API구축하는 법을 학습했습니다.",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1VdjpHWLeZ_fSASDUJk3pvdTzuuPM1wr7/view?usp=sharing"
+        },
+        {
+          name: "Project",
+          url: "https://github.com/smjteresa95/Dining-Review"
+        }
+      ]
+    },
+    {
+      title: "How to Transform Tables with SQL",
+      subtitle: "Codecademy",
+      description: "데이터 조작을 위한 SQL을 추가로 학습하였습니다.",
+      footerLink: [{name: "Certification", url: ""}]
+    },
+    {
+      title: "AWS Cloud Technical Essentials",
+      subtitle: "Coursera",
+      description:
+        "Web application 배포실습을 통해 AWS 서비스의 전반적인 이해를 익히고있습니다.",
+      footerLink: [
+        {
+          name: "In Progress",
+          url: "https://www.coursera.org/learn/aws-cloud-technical-essentials/"
+        }
+      ]
+    },
+    {
+      title: "Build Python Web Apps with Flask",
+      subtitle: "Codecademy",
+      description:
+        "가격비교 API를 만들기 위해서 Python과 Flask를 학습하고 있습니다.",
+      footerLink: [
+        {
+          name: "In Progress",
+          url: "https://www.codecademy.com/enrolled/paths/build-python-web-apps-flask"
+        }
+      ]
+    }
+  ],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -448,8 +451,7 @@ const achievementSection = {
 
 const blogSection = {
   title: "Blogs",
-  subtitle:
-    "저의 개발공부 기록지입니다.",
+  subtitle: "저의 개발공부 기록지입니다.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
@@ -461,14 +463,12 @@ const blogSection = {
     {
       url: "https://medium.com/@minjeesong95/project-kkini-jira%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%ED%98%91%EC%97%85-1feab2fbc57e",
       title: "Project Kkini | Jira를 활용한 협업",
-      description:
-        "프로젝트를 진행하면서 이런식으로 협업을 했어요."
+      description: "프로젝트를 진행하면서 이런식으로 협업을 했어요."
     },
     {
       url: "https://medium.com/@minjeesong95/list/java-2c5c061ff7f2",
       title: "Java Basic",
-      description:
-        "Codecademy와 부트캠프에서 배운 내용을 기술했습니다."
+      description: "Codecademy와 부트캠프에서 배운 내용을 기술했습니다."
     }
   ],
   display: true // Set false to hide this section, defaults to true

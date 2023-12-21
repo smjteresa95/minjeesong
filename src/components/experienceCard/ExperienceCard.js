@@ -2,7 +2,6 @@ import React from "react";
 import "./ExperienceCard.scss";
 
 export default function ExperienceCard({cardInfo, isDark}) {
-
   function openUrlInNewTab(url, name) {
     if (!url) {
       console.log(`URL for ${name} not found`);
@@ -27,8 +26,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
 
   return (
     <div className={isDark ? "experience-card-dark" : "experience-card"}>
-
-<div className="experience-text-details">
+      <div className="experience-text-details">
         <h5
           className={
             isDark
@@ -70,21 +68,21 @@ export default function ExperienceCard({cardInfo, isDark}) {
         </ul>
 
         <div className="experience-card-footer">
-          {cardInfo.footer && cardInfo.footer.map((v, i) => {
-            return (
-              <span
-                key={i}
-                className={
-                  isDark ? "dark-mode experience-tag" : "experience-tag"
-                }
-                onClick={() => openUrlInNewTab(v.url, v.name)}
-              >
-                {v.name}
-              </span>
-            );
-          })}
+          {cardInfo.footer &&
+            cardInfo.footer.map((v, i) => {
+              return (
+                <span
+                  key={i}
+                  className={
+                    isDark ? "dark-mode experience-tag" : "experience-tag"
+                  }
+                  onClick={() => openUrlInNewTab(v.url, v.name)}
+                >
+                  {v.name}
+                </span>
+              );
+            })}
         </div>
-
       </div>
     </div>
   );

@@ -59,7 +59,6 @@ export default function StartupProject() {
                     >
                       {project.projectName}
                     </h5>
-                    
 
                     <p
                       className={
@@ -68,7 +67,6 @@ export default function StartupProject() {
                     >
                       {project.projectDesc}
                     </p>
-                  
 
                     <p
                       className={
