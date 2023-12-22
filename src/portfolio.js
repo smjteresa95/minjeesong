@@ -328,7 +328,7 @@ const bigProjects = {
     },
     {
       // image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Dining Review API", 
+      projectName: "Dining Review API",
       projectDesc:
         "Codecademy에서 Java, Spring boot 과정 수강 후 음식점 리뷰 API를 만들었습니다.",
       footerLink: [
