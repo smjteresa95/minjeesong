@@ -72,6 +72,7 @@ const skillsSection = {
     "데이터베이스 통합: Spring Data JPA를 통해 MySQL 및 H2 데이터베이스 연동.",
     "테스트 자동화: JUnit 등의 테스팅 프레임워크를 사용한 단위 및 통합 테스트 수행",
     "Spring MVC: 모델-뷰-컨트롤러 패턴을 적용한 웹 애플리케이션 구축.",
+    "Spring Rest Doc을 활용한 API 문서화",
 
     emoji("⚡ Selenium"),
     " Java와 Python을 사용한 웹 크롤링 스크립트 및 데이터베이스 연동 작업."
@@ -362,7 +363,7 @@ const bigProjects = {
     },
     {
       // image: require("./assets/images/nextuLogo.webp"),
-      projectName: "크롤링",
+      projectName: "간편식 상품정보 크롤링",
       projectDesc:
         "초기 KKINIproject의 일부로 다수의 상품 판매 사이트에서 상품 정보를 스크래핑하여 DB에 저장합니다",
       techStack: "Maven 4.0.0, Spring Boot 3.1.2, Java 17, MySQL",
@@ -370,6 +371,23 @@ const bigProjects = {
         {
           name: "Source Code",
           url: "https://github.com/smjteresa95/Crawling-Selenium"
+        }
+      ]
+    },
+    {
+      // image: require("./assets/images/nextuLogo.webp"),
+      projectName: "날씨예보 API",
+      projectDesc:
+          "기상청 OPEN API로 단기예보, 초단기예보, 중기예보(육상예보, 기온예보) 데이터를 가지고 와 DB에 저장/조회 할 수 있습니다.",
+      techStack: "Maven 4.0.0, Spring Boot 3.1.2, Java 17, MySQL, Junit4",
+      footerLink: [
+        {
+          name: "Source Code",
+          url: "https://github.com/smjteresa95/Weather-forecast-api"
+        },
+        {
+          name: "API 명세서",
+          url: "https://smjteresa95.github.io/Weather-forecast-api/"
         }
       ]
     }
