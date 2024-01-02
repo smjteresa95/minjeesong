@@ -378,7 +378,7 @@ const bigProjects = {
       // image: require("./assets/images/nextuLogo.webp"),
       projectName: "날씨예보 API",
       projectDesc:
-          "기상청 OPEN API로 단기예보, 초단기예보, 중기예보(육상예보, 기온예보) 데이터를 가지고 와 DB에 저장/조회 할 수 있습니다.",
+        "기상청 OPEN API로 단기예보, 초단기예보, 중기예보(육상예보, 기온예보) 데이터를 가지고 와 DB에 저장/조회 할 수 있습니다.",
       techStack: "Maven 4.0.0, Spring Boot 3.1.2, Java 17, MySQL, Junit4",
       footerLink: [
         {
